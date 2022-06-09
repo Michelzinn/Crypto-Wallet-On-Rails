@@ -1,5 +1,6 @@
 
 en:
+  actual_locale: "English (International)"
   hello: "Hello world"
   links:
       edit: "Edit"
@@ -7,6 +8,7 @@ en:
       delete: "Delete"
 
 'pt-BR':
+  actual_locale: "Português do Brasil"
   hello: "ola mundo"
   links:
       edit: "Editar"

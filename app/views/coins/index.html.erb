@@ -1,7 +1,9 @@
 <p id="notice"><%= notice %></p>
 
 <h1>Coins</h1>
-<p><strong>A data de hoje é </strong> <%= l(Date.today) %> </p>
+<h2><%= cookies[:curso] %></h2>
+<h2><%= session[:curso] %></h2>
+<p><strong>A data de hoje é </strong> <%= t('actual_locale') %> </p>
 
 
 <table>
