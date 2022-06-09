@@ -1,0 +1,18 @@
+<h1>Seja bem vindo ao <%= nome_aplicacao %></h1>
+<p>Michelzinnn</p>
+
+<p>O idioma usado nessa aplicacao é: <strong><%= locale %></p></strong>
+<p><%= t('hello') %></p>
+
+
+<p><strong>A data de hoje é </strong> <%= l(Date.today) %> </p>
+
+<%= render "menu"%>
+
+<p>
+    Você está em ambiente de <strong> <%= ambiente_rails %> </strong>
+
+</p>
+
+<p>Eu sou uma variavel de instancia/sessão <%= @nome %></p>
+<p>Curso: <%= @curso %></p>

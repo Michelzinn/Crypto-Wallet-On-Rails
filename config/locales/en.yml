@@ -1,0 +1,14 @@
+
+en:
+  hello: "Hello world"
+  links:
+      edit: "Edit"
+      show: "Show"
+      delete: "Delete"
+
+'pt-BR':
+  hello: "ola mundo"
+  links:
+      edit: "Editar"
+      show: "Mostrar"
+      delete: "Deletar"
