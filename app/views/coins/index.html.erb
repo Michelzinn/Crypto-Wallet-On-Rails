@@ -3,7 +3,8 @@
 <h1>Coins</h1>
 <h2><%= cookies[:curso] %></h2>
 <h2><%= session[:curso] %></h2>
-<p><strong>A data de hoje é </strong> <%= t('actual_locale') %> </p>
+
+<p><strong>A data de hoje é </strong> <%= l(Date.today) %> </p>
 
 
 <table>
