@@ -1,25 +1,17 @@
-<p>
-    <%=link_to 'Português', root_path(locale:'pt-BR')%>
-</p>
-<p>
-    <%=link_to 'English', root_path(locale:'en')%>
-</p>
 
-<h1>Seja bem vindo ao <%= nome_aplicacao %></h1>
-<p>Michelzinnn</p>
+<div class="jumbotron">
+    <h1 class="display-4">Seja bem vindo!</h1>
+    <p class="lead">Este aplicativo é o Crypto Wallet, cadastre suas moedas!</p>
+    <hr class="my-4">
+    <p>O idioma usado nessa aplicacao é: <strong><%= t("actual_locale") %></p></strong>
+    <p><strong>A data de hoje é </strong> <%= l(Date.today) %> </p>
+    
+    <p>Para começar selecione um dos botões</p>
 
-<p>O idioma usado nessa aplicacao é: <strong><%= t("actual_locale") %></p></strong>
-<p><%= t('hello') %></p>
+    <%= render "menu"%>
+</div>
+</div>
 
 
-<p><strong>A data de hoje é </strong> <%= l(Date.today) %> </p>
 
-<%= render "menu"%>
 
-<p>
-    Você está em ambiente de <strong> <%= ambiente_rails %> </strong>
-
-</p>
-
-<p>Eu sou uma variavel de instancia/sessão <%= @nome %></p>
-<p>Curso: <%= @curso %></p>
