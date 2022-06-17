@@ -12,6 +12,9 @@ en:
   start_message: "To start, select a option!"
   coin: "Coins"
   mining_type: "Mining Types"
+  language_msg: "The app language is:  "
+  new: "New"
+  confirm: "Are you sure?"
 
 'pt-BR':
   actual_locale: "Português do Brasil"
@@ -26,3 +29,6 @@ en:
   start_message: "Para começar selecione uma opção!"
   coin: "Moedas"
   mining_type: "Tipos de mineração"
+  language_msg: "O idioma da aplicação é: "
+  new: "Novo"
+  confirm: "Tem certeza?"
