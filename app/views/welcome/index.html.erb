@@ -1,12 +1,12 @@
 
 <div class="jumbotron">
-    <h1 class="display-4">Seja bem vindo!</h1>
-    <p class="lead">Este aplicativo é o Crypto Wallet, cadastre suas moedas!</p>
+    <h1 class="display-4"><%= t('welcome') %></h1>
+    <p class="lead"><%= t('welcome_message')%></p>
     <hr class="my-4">
     <p>O idioma usado nessa aplicacao é: <strong><%= t("actual_locale") %></p></strong>
-    <p><strong>A data de hoje é </strong> <%= l(Date.today) %> </p>
+    <p><strong> <%= t('_today') %> </strong> <%= l(Date.today) %> </p>
     
-    <p>Para começar selecione um dos botões</p>
+    <p><%= t('start_message') %></p>
 
     <%= render "menu"%>
 </div>

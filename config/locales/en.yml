@@ -6,6 +6,12 @@ en:
       edit: "Edit"
       show: "Show"
       delete: "Delete"
+  welcome: "Welcome aboard!"
+  welcome_message: "This is the crypto wallet app!"
+  _today: "Today's date is:"
+  start_message: "To start, select a option!"
+  coin: "Coins"
+  mining_type: "Mining Types"
 
 'pt-BR':
   actual_locale: "Português do Brasil"
@@ -14,3 +20,9 @@ en:
       edit: "Editar"
       show: "Mostrar"
       delete: "Deletarr"
+  welcome: "Seja bem vindo!"
+  welcome_message: "Este aplicativo é o Crypto Wallet, cadastre suas moedas!"
+  _today: "A data de hoje é:"
+  start_message: "Para começar selecione uma opção!"
+  coin: "Moedas"
+  mining_type: "Tipos de mineração"
