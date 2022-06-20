@@ -14,6 +14,17 @@ en:
   mining_type: "Mining Types"
   language_msg: "The app language is:  "
   new: "New"
+  new2:
+    coin: "New Coin"
+    mining_type: "New Mining Type"
+  editing:
+    coin: "Editing Coin"
+    mining_type: "Editing Mining Type"
+  showing:
+    coin: "Showing Coin"
+    mining_type: "Showing Mining Type"
+
+
   confirm: "Are you sure?"
 
 'pt-BR':
@@ -32,3 +43,12 @@ en:
   language_msg: "O idioma da aplicação é: "
   new: "Novo"
   confirm: "Tem certeza?"
+  new2:
+    coin: "Nova Moeda"
+    mining_type: "Novo tipo de mineração"
+  editing:
+    coin: "Editando Moeda"
+    mining_type: "Editando tipo de Mineração"
+  showing:
+    coin: "Mostrando Moeda"
+    mining_type: "Mostrando tipo de mineração"
