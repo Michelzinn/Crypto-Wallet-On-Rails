@@ -19,6 +19,9 @@
     <li class="nav-item">
         <%=link_to ' English ', root_path(locale:'en'), class:"nav_link"%>
     </li>
+    <li class="nav-item">
+        <%=link_to ' Home ', root_path("http://localhost:3000/welcome/index"), class:"nav_link"%>
+    </li>
 
 </ul>
     <%= yield %>
